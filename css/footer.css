@@ -1,36 +1,76 @@
-.footer_social{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pie{
+    background-color:red;
+
+}
+
+.section{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
     display:flex;
-    align-items: center;
+    height: 20px
+    max-content: 120px;
+    margin: 1px;
+    grid: row gap 10px;
 }
 
-.imagen{
-    margin-right: 1rem;
+.iconos{
+    font-size: 30px;
+    list-style: none;
+    width: 195px;
+    display:flex;
+    gap: 15px;
     color: white;
-}
-
-.footer_imagen{
-    height: 50px;
-    width: 50px;
-}
-
-.social_opciones{
-    display: flex;
-}
-
-.esp{
-    flex-direction: column;
+    align-items: center;
+    right: 60px;
+    width: 30px;
+    height: 120px;
+    justify-items:right; 
     margin-left: 3rem;
-    font-size: 8pt;
+}
+
+.titulos{
+   color: white;
+   float:inline-end;
+   gap: 280px;
+   display:flex;
+   margin: 10px 100px;
+   width: 30px;
+   align-items: center;
+   font-size:25px;
+   
 }
 
 .footer{
     display: flex;
-    padding-top: 3rem;
-    background: black;
+ }
+
+.section div{
+    display: block;
+    flex-direction: column;
+    width: 160px;
+    height: 150px; 
+    margin-left: 3rem;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.div h5{
     color: white;
 }
 
-.footer_locations{
+p{
+    color:rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+}
+
+.derechos small{
     display: flex;
-    align-items: center;
+    justify-content:space-between;
+    padding: 50px;
 }
