@@ -1,23 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .pie{
-    background-color:red;
+    background-color:black;
+}
 
+.section div{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 160px;
+    height: 150px; 
+    margin-left: 3rem;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .section{
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    display:flex;
-    height: 20px
-    max-content: 120px;
-    margin: 1px;
-    grid: row gap 10px;
+    display: flex;
 }
+
 
 .iconos{
     font-size: 30px;
@@ -36,9 +35,9 @@
 
 .titulos{
    color: white;
-   float:inline-end;
+   float: inline-end;
    gap: 280px;
-   display:flex;
+   display: flex;
    margin: 10px 100px;
    width: 30px;
    align-items: center;
@@ -48,19 +47,9 @@
 
 .footer{
     display: flex;
- }
-
-.section div{
-    display: block;
-    flex-direction: column;
-    width: 160px;
-    height: 150px; 
-    margin-left: 3rem;
-    font-size: 14px;
-    line-height: 25px;
 }
 
-.div h5{
+div h5{
     color: white;
 }
 
@@ -71,6 +60,6 @@ p{
 
 .derechos small{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 50px;
 }

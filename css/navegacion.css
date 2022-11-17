@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container{
+.navegacion_container{
     display: flex;
     align-self: flex-start;
     color: white;
@@ -24,16 +19,16 @@
     font-size: 13px;    
 }
 
-.titulo{
+.navegacion_titulo{
     font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 1rem;
     width: 60px;
     height: 75px;
-    color:white;
-    align-items:center;
+    color: white;
+    align-items: center;
     justify-content:space-around;
-    margin:margin:50px 65px;
+    margin: 50px 65px;
 }
 
 .nav{
