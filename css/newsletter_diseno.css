@@ -1,0 +1,28 @@
+body {
+    background: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal_newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.suscrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: 15rem;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+
