@@ -1,0 +1,36 @@
+.footer_social{
+    display:flex;
+    align-items: center;
+}
+
+.imagen{
+    margin-right: 1rem;
+    color: white;
+}
+
+.footer_imagen{
+    height: 50px;
+    width: 50px;
+}
+
+.social_opciones{
+    display: flex;
+}
+
+.esp{
+    flex-direction: column;
+    margin-left: 3rem;
+    font-size: 8pt;
+}
+
+.footer{
+    display: flex;
+    padding-top: 3rem;
+    background: black;
+    color: white;
+}
+
+.footer_locations{
+    display: flex;
+    align-items: center;
+}

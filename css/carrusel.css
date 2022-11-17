@@ -1,0 +1,136 @@
+.carrusel {
+    background: #804000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: sans-serif;
+   
+}
+
+.carrusel h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 24pt;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagen_carrusel {
+    width: 125px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+.trajes_blue {
+    background: white;
+    padding: 20px 20px;
+}
+
+.blue{
+    display: flex;
+}
+
+.trajes_brown {
+    background: white;
+    padding: 20px 20px;
+}
+
+.brown {
+    display: flex;
+    
+}
+
+.container_trajes {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.boton_carrusel{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    margin-left: 8rem;
+    font-size: 12pt;
+    
+}
+.brown p {
+    line-height: 18px;
+}
+
+.blue p{
+    line-height: 18px;
+
+}
+
+.nombre {
+    margin-top: 1rem;
+}
+
+.fa-star{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 18pt;
+    color: #804000;
+}
+
+.fa-chevrons-right {
+    color: white;
+}
+
+.mySlides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.linea_ca{
+    height: 30px;
+    width: 430px;
+    filter: invert(100%) sepia(56%) saturate(145%) hue-rotate(167deg) brightness(117%) contrast(100%);
+}
+
+.carrusel_lineas{
+    display: flex;
+    justify-content: space-around;
+}
