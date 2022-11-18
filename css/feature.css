@@ -62,3 +62,26 @@
     height: 75px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 410px){
+
+    .linea{
+        display: none;
+    }
+
+    .featured_on {
+        flex-direction: column;
+    }
+
+    .feature_fashion{
+        margin-bottom: 2rem;
+    }
+
+    .feature_cq{
+        margin-bottom: 2rem;
+    }
+
+    .feature_runway{
+        margin-bottom: 2rem;
+    }
+}

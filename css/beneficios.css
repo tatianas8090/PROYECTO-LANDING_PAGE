@@ -49,4 +49,18 @@
         align-items: center;
     }
 
+    .beneficios_titulo{
+        font-size: 18pt;
+    }
+
+    .beneficios_parrafo{
+        font-size: 10pt;
+
+    }
+
+    .details{
+        font-size: 7pt;
+
+    }
+
 }

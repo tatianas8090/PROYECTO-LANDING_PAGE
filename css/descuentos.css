@@ -1,67 +1,88 @@
+.imagen {
+   height: 500px;
+   width: 80%;
+}
 
-   .imagen {
-    background-image: url(../Imagenes/ropa.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    width: 80%;
-   }
-   .descuentos {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 80px;
-   }
-
-   .texto_40off {
-    width: 30%;
-    text-align: center ;
-    margin-top: 20px;
-   }
-
-   .texto_40off h2 {
-    font-size: 80px; 
-    margin-bottom: 0%;
-    font-style:inherit;
-    font-weight: lighter;
-   }
-
-   .texto_40off h4 {
-    font-size: 300%;
-    margin-top: 0%;
-    margin-bottom: 10%;
-    font-weight: lighter;
   
-   }
-   .texto_40off button {
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    font-size: 25px;
-    padding: 10px 60px ;
-    background: rgb(5, 5, 5);
-    margin-top: 0;
-   }
-    
-   .texto_40off p {
-    font-size: 12px;
-    font-style: italic;
-   }
+.texto_40off {
+   width: 30%;
+   text-align: center;
+   margin-top: 2rem;
+   margin-left: 2rem;
+}
+  
+.texto_40off h2 {
+   font-size: 80px; 
+   margin-bottom: 0%;
+   font-style:inherit;
+   font-weight: lighter;
+}
+  
+.texto_40off h4 {
+   font-size: 300%;
+   margin-top: 0%;
+   margin-bottom: 10%;
+   font-weight: lighter;
+  
+}
+  
+.texto_40off button {
+   color: white;
+   font-family:Georgia, 'Times New Roman', Times, serif ;
+   font-size: 25px;
+   padding: 10px 60px ;
+   background: rgb(5, 5, 5);
+   margin-top: 0;
+}
+   
+.texto_40off p {
+   font-size: 12px;
+   font-style: italic;
+}
+  
+.textobajo{
+     color: black;
+}
 
-   @media screen and (max-width: 410px) {
-      .imagen {
-         flex-direction: column;
-         background-image: url(../Imagenes/ropa.jpg);
-         background-size: cover;
-         background-position: center;
-         height: 400px;
-         width: 40%;
-        }
-        .descuentos {
-         display: flex;
-         width: 100%;
-         justify-content: space-between;
-         align-items: flex-start;
-         margin-left: 80px;
-        }
-   }
+.descuentos{
+   display:flex;
+   align-items: center;
+}
+
+.navegacion_fondo{
+   background-image: url(../Imagenes/ropa.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+   width: 80%;
+}
+
+  @media screen and (max-width: 410px) {
+  
+     .descuentos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
+       }
+       .navegacion_fondo {
+        display: none;
+  
+       }
+       .descuentos {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+       }
+    
+       .texto_40off {
+        width: 100%;
+        text-align: center ;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        
+       }
+     
+  }
