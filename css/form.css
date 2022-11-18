@@ -45,12 +45,35 @@
     border: none;
     border-radius: 5px;
     font-weight: bold;
-
 }
 
 .correo_boton:hover{
     background: rgb(61, 61, 61);
 
+}
+
+@media screen and (max-width: 410px){
+
+    .diseño_form {
+        padding: 25px 25px;
+
+    }
+
+    .formu_boton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form{
+        padding: 40px;
+    }
+
+    .diseño_form h2{
+        font-size: 14pt;
+    }
+    
 }
 
 

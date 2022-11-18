@@ -136,3 +136,55 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 410px){
+
+    .linea_ca{
+        display: none;
+    }
+
+    .container_trajes {
+        display: flex;
+        justify-content: space-around;
+        max-width: 350px;
+        position: relative;
+        margin: auto;
+    }
+
+    .fa-star{
+        font-size: 12pt;
+        margin-right: 0.3rem;
+
+    }
+
+    .brown p{
+        font-size: 10pt;
+
+    }
+
+    .blue p{
+        font-size: 10pt;
+    }
+
+    .imagen_carrusel {
+        width: 125px;
+        height: 180px;
+        margin-right: 1rem;
+    }
+
+    .boton_carrusel{
+        padding: 7px 17px;
+        margin-left: 5rem;
+        font-size: 12pt;
+    }
+
+    .trajes_blue{
+        padding: 15px 15px;
+    }
+
+    .trajes_brown{
+        padding: 15px 15px;
+    }
+
+
+}

@@ -26,3 +26,13 @@ body {
     border-radius: 30px;
 }
 
+@media screen and (max-width: 410px){
+
+    .suscrito{
+        padding: 30px 30px;
+        font-size: 8pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+
